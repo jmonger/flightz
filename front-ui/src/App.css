@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  background-image: url("../src/hand_dark.jpg");
+  background-size: cover;
+}
+
+.jumbo-extra-height {
+  height: 650px
+}
+
+.jumbo-text-color {
+  color:white;
+}
