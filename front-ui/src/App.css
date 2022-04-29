@@ -37,6 +37,27 @@
   }
 }
 
+img {
+  align-items: flex;
+  margin-left: 15px;
+  margin-top: 6px;
+  display:flex;
+  width: 80px;
+  border: 1px solid;
+  border-color: aqua;
+  border-radius: 60%;
+  border-style: inset;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+.nav-links{
+  display:flex; 
+  justify-content:space-around;
+  width: 100%;
+}
+
 .jumbotron {
   background-image: url("../src/hand_dark.jpg");
   background-size: cover;
