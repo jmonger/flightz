@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -37,12 +38,12 @@
   }
 }
 
-img {
+.travelImg {
   align-items: flex;
   margin-left: 15px;
   margin-top: 6px;
   display:flex;
-  width: 80px;
+  width: 40px;
   border: 1px solid;
   border-color: aqua;
   border-radius: 60%;
@@ -50,6 +51,14 @@ img {
   text-align: center;
   cursor: pointer;
   
+  
+}
+.socialIcon {
+  align-items: center;
+  width: 40px;
+
+
+
 }
 
 .nav-links{
@@ -61,6 +70,9 @@ img {
 .jumbotron {
   background-image: url("../src/hand_dark.jpg");
   background-size: cover;
+  width: 100%;
+  margin: 0px;
+  
 }
 
 .jumbo-extra-height {
@@ -69,4 +81,13 @@ img {
 
 .jumbo-text-color {
   color:white;
+}
+footer{
+  padding: 20px;
+  background-color: #7070703a;
+}
+.footerInfo{
+  text-align: center;
+
+
 }
