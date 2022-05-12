@@ -1,7 +1,7 @@
 import logo from "./travel-icon.png";
 import "./App.css";
 
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown, Table } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
 function App() {
@@ -41,6 +41,11 @@ function App() {
       <Container>
         <Outlet />
       </Container>
+      <footer>
+        <Table>
+
+        </Table>
+      </footer>
     </div>
   );
 }

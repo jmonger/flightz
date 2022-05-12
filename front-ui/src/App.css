@@ -1,7 +1,13 @@
+@import (css) url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
 .App {
   text-align: center;
+
 }
 
+body {
+  font-family: 'Cardo', serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

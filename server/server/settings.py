@@ -25,18 +25,20 @@ SECRET_KEY = 'django-insecure-p*j)ppt%k-qq=h*8=qu&_g(9z2$utv=!dldl4y-=1=@9270!6(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.0.19', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'flightzapi.apps.FlightzapiConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
