@@ -49,7 +49,8 @@ function App() {
 <br></br>
 <br></br>
       <footer>
-<p className="footerInfo">Copyright | All Rights Reserved | Ayesha Was Here | Webpage Designed By Jamal and Dee</p>
+<p className="footerInfo">
+  Copyright | All Rights Reserved | Ayesha Was Here | Webpage Designed By Jamal and Dee</p>
       </footer>
     </div>
   );

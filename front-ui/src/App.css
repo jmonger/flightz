@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(76, 74, 74);
 }
 
 .App-link {
@@ -76,7 +76,8 @@
 }
 
 .jumbo-extra-height {
-  height: 650px
+  display: block;
+  min-height: 700px;
 }
 
 .jumbo-text-color {
@@ -84,10 +85,14 @@
 }
 footer{
   padding: 20px;
-  background-color: #7070703a;
+  background-color: #0e0d0d59;
+  color: rgb(234, 234, 234);
+  text-decoration-color: black;
 }
 .footerInfo{
   text-align: center;
+  
+  
 
 
 }
