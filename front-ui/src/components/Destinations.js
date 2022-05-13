@@ -1,13 +1,16 @@
 import React from "react";
-import { Form, Row, Col, Button, Image } from "react-bootstrap";
+import { Form, Row, Col, Button, Image, Container } from "react-bootstrap";
 import './Destinations.css';
 
 const Destinations = () => {
   return (
     <div>
-        <h1>
+      <Container>
+      <h1>
          Destinations
-        </h1>     
+        </h1>    
+      </Container>
+ 
     </div>
   );
 };

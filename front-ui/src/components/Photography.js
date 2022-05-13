@@ -1,13 +1,16 @@
 import React from "react";
-import { Form, Row, Col, Button, Image } from "react-bootstrap";
+import { Form, Row, Col, Button, Image, Container } from "react-bootstrap";
 import './Photography.css';
 
 const Photography = () => {
   return (
     <div>
-        <h1>
+      <Container>
+      <h1>
          Photography
         </h1>     
+      </Container>
+
     </div>
   );
 };

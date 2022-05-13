@@ -2,6 +2,7 @@ import logo from "./travel-icon.png";
 import "./App.css";
 import fbLogo from "./Facebook-logo.png";
 import igLogo from "./instalogo.png";
+import Home from "./components/Home"
 
 
 
@@ -39,13 +40,13 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       <br />
       <br />
-      <Container>
+
         <br></br>
         <br></br>
         <Outlet />
-      </Container>
 <br></br>
 <br></br>
       <footer>
