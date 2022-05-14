@@ -62,21 +62,33 @@
 }
 
 .nav-links{
+  color: white !important;
   display:flex; 
   justify-content:space-around;
   width: 100%;
+  
 }
-
+.nav-text, #basic-nav-dropdown{
+  color:white !important;
+}
 .jumbotron {
-  background-image: url("../src/hand_dark_cropped.jpg");
+  background-image: url("../src/DSC_1141_updated.jpg");
   background-size: cover;
   width: 100%;
   margin: 0px;
+  transform:translateY(-100px);
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.178);
+
+
+
   
 }
 
 .jumbo-extra-height {
-  height: 650px
+  height:1000px;
+  /* height: 100vmax; */
+  /* transform:translateY(140px) */
+  
 }
 
 .jumbo-text-color {
