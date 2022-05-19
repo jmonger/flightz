@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import InquiryDataService from "../services/inquiries.service";
-import { Form, Row, Col, Button, Image } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 import './Inquiries.css';
 
 const Inquiries = () => {

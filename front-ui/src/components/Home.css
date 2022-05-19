@@ -1,3 +1,30 @@
 .bannerImage{
     margin: 0px;
 }
+
+.mid-desc-image {
+    width: 25%
+}
+
+.desc-image {
+    width: 50%;
+    border-radius: 50px;
+}
+
+.desc-text {
+    font-family: 'BIZ UDMincho', serif;
+    width:80%
+}
+
+.center-in-container {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-img {
+    position: relative;
+    text-align: center;
+  
+  }
