@@ -1,5 +1,13 @@
+
+.container{
+    margin-left: 0px;
+    padding-left: 0px;
+}
 .AboutImage{
-    max-width: 40%;
-    
-   
+    float: right;
+    max-width: 50vw;
+    min-height: 100vh;
+    max-height:50vh;
+    transform:translateY(-14vh);
+
 }

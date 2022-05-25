@@ -11,9 +11,24 @@
     border-radius: 50px;
 }
 
-.desc-text {
+.desc-text h2 {
+    color:rgb(0, 0, 0);
+    padding-left: 75vh;
     font-family: 'BIZ UDMincho', serif;
-    width:80%
+    text-shadow: 1px 2px 2px  #f9f9f9a1;
+    font-size: 20px;
+    font-weight:800;
+}
+h3, .specOps{
+    font-family: 'BIZ UDMincho', serif;
+    width: 100%;
+    font-weight: 800
+
+   
+}
+.desc-position{
+    float:right;
+    
 }
 
 .center-in-container {
@@ -28,3 +43,18 @@
     text-align: center;
   
   }
+  .text-center_text-white{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 40vh;
+  }
+  
+  .display-4_text-center{
+    font-size: 50px;
+    text-shadow: 2px 2px 3px  #000000a1;
+  }
+  .lead_text-center{
+    font-size: 30px;
+    text-shadow: 1px 2px 3px  #222222;
+  }
+ 
