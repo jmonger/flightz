@@ -64,15 +64,17 @@
 /* IMAGES */
 
 .jumbotron {
+  /* position:fixed; */
   background-size:cover;
   width:100%;
   background-image: url("../src/DSC_0706-01-02.jpeg");
-  
-
+  transform: translatey(-50vh)
 }
+
 .jumbo-extra-height {
-  min-height:100vh;
-  transform: translateY(150x);
+  min-height:170vh;
+  /* transform: translateY(150x); */
+  
 }
 /* .customTravelImg{
   flex:1;

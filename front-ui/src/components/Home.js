@@ -39,6 +39,7 @@ const Home = () => {
       <div className="text-center desc-text desc-position">
 
         <h2 >"Literally the best trip I've ever experienced. We stayed at a beautiful hotel and the recommended restaraunts were incredible! We always felt safe and our travel planner was always available during the trip. We cannot wait to book again!"</h2>
+
           <h2 >-- A satasfied Traveler</h2>
       </div>
      

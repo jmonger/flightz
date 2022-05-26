@@ -11,13 +11,15 @@
     border-radius: 50px;
 }
 
-.desc-text h2 {
-    color:rgb(0, 0, 0);
-    padding-left: 75vh;
+.desc-text h2{
+    color:rgb(255, 255, 255); 
     font-family: 'BIZ UDMincho', serif;
-    text-shadow: 1px 2px 2px  #f9f9f9a1;
-    font-size: 20px;
+    text-shadow: 2px 2px 2px  #000000a1;
+    font-size: 30px;
     font-weight:800;
+    transform:translateY(-80vh);
+    width: 60%;
+    
 }
 h3, .specOps{
     font-family: 'BIZ UDMincho', serif;
@@ -26,13 +28,16 @@ h3, .specOps{
 
    
 }
-.desc-position{
+.desc-position, h2 {
     float:right;
+    width: 50%;
+    transform: translateY(-400px);
+    padding-right: 2vw;
     
 }
 
 .center-in-container {
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
