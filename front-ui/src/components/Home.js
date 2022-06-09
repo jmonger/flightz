@@ -26,7 +26,7 @@ const Home = () => {
             <h1 className="display-4_text-center">
               Sophisticated Safe Traveling
             </h1>
-            <p className="lead_text-center">Let me plan your next destinaton</p>
+            <p className="lead text-center">Let me plan your next destinaton</p>
             <button type="button" className="btn btn-secondary btn-lg">
               Check Out Our Travel Specials
             </button>
@@ -35,54 +35,66 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
-      <div className="text-center desc-text desc-position">
 
-        <h2 >"Literally the best trip I've ever experienced. We stayed at a beautiful hotel and the recommended restaraunts were incredible! We always felt safe and our travel planner was always available during the trip. We cannot wait to book again!"</h2>
+      <div className="text-center desc-text">
+        <h2>
+          "Literally the best trip I've ever experienced. We stayed at a
+          beautiful hotel and the recommended restaraunts were incredible! We
+          always felt safe and our travel planner was always available during
+          the trip. We cannot wait to book again!"
+        </h2>
 
-          <h2 >-- A satasfied Traveler</h2>
+        <h2>-- A satasfied Traveler</h2>
       </div>
-     
+      <br />
+
+      <Container className="d-flex justify-content-center">
+        {/* <Container className="container-img">
+          <img className="mid-desc-image" src={wing_round} />
+          <div className="center-in-container">
+            <h3 className="specOps">Specialized Options</h3>
+          </div>
+        </Container> */}
+
         <br />
         <br />
-      <Container className="text-center desc-text">
-        <Container className="container-img">
-        <img className="mid-desc-image" src={wing_round} />
-        <div className="center-in-container">
-          <h3 className="specOps">Specialized Options</h3>
+        <div className="text-center f-desc">
+          <Row>
+            <Col>
+              <img className="desc-image" src={customize_travel} />
+
+              <h4>Customized</h4>
+              <p>
+                {" "}
+                We will build activities, lodging, flights, food packages and
+                more to fit your needs. We strive to create your best
+                experience.
+              </p>
+            </Col>
+
+            <Col>
+              <img className="desc-image" src={group_travel} />
+
+              <h4> Groups</h4>
+              <p>
+                We specialize in accomodating groups of all sizes. Whether you
+                are looking to book a solo trip or a family reunion, we want to
+                work with you.{" "}
+              </p>
+            </Col>
+            <Col>
+              <img className="desc-image" src={safe_travel} />
+              <h4>Safety</h4>
+              <p>
+                {" "}
+                Our team prioritizes the safety of our travelers. Our
+                recommendations and best practices will ensure the safety of
+                your trips.
+              </p>
+            </Col>
+          </Row>
         </div>
-        </Container>
-      
-      <br />
-      <br />
-
-
-
-        <br />
-        <br />
-        <Row>
-          <Col>
-            <img className="desc-image" src={customize_travel} />
-
-            <h4>Customized</h4>
-            <p> We will  build activities, lodging, flights, food packages and more to fit your needs. We strive to create your best experience.</p>
-          </Col>
-
-          <Col>
-            <img className="desc-image" src={group_travel} />
-
-            <h4> Groups</h4>
-            <p>We specialize in accomodating groups of all sizes. Whether you are looking to book a solo trip or a family reunion, we want to work with you. </p>
-          </Col>
-          <Col>
-            <img className="desc-image" src={safe_travel} />
-            <h4>Safety</h4>
-            <p> Our team prioritizes the safety of our travelers. Our recommendations and best practices will ensure the safety of your trips.</p>
-          </Col>
-        </Row>
       </Container>
-      
-      
     </div>
   );
 };

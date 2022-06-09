@@ -11,24 +11,28 @@
     border-radius: 50px;
 }
 
-.desc-text h2{
+.desc-text {
     color:rgb(255, 255, 255); 
     font-family: 'BIZ UDMincho', serif;
     text-shadow: 2px 2px 2px  #000000a1;
     font-size: 30px;
     font-weight:800;
-    transform:translateY(-80vh);
-    width: 60%;
+    transform:translateY(-140vh);
+    width: 30%;
+    /* transform: translateY(-900px); */
+    padding-right: 2vw;
+    float: right;
     
 }
-h3, .specOps{
+
+.specOps {
     font-family: 'BIZ UDMincho', serif;
     width: 100%;
     font-weight: 800
 
    
 }
-.desc-position, h2 {
+.desc-position {
     float:right;
     width: 50%;
     transform: translateY(-400px);
@@ -44,21 +48,26 @@ h3, .specOps{
 }
 
 .container-img {
-    position: relative;
+    position: absolute;
     text-align: center;
+    transform: translateY(-100vh)
   
-  }
+}
   .text-center_text-white{
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 40vh;
   }
   
-  .display-4_text-center{
+  .display-4 {
     font-size: 50px;
     text-shadow: 2px 2px 3px  #000000a1;
   }
-  .lead_text-center{
+
+  .f-desc {
+    transform: translateY(-100vh)
+  }
+  .lead{ 
     font-size: 30px;
     text-shadow: 1px 2px 3px  #222222;
   }
